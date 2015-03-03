@@ -1,0 +1,76 @@
+body {
+  background: repeating-linear-gradient(
+    to right,
+    #f6ba52,
+    #f6ba52 10px,
+    #ffd180 10px,
+    #ffd180 20px
+  );
+font-family: Tahoma;
+padding-top:10px;
+}
+
+.wrapper {
+  width: 65%;
+  margin: 0 auto;
+  background-color: lightblue;
+  padding:20px;
+  border-radius: 15px;
+}
+.scoreboard {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.button_area {
+  background-color:white;
+  padding:10px;
+  text-align: center;
+}
+
+button {
+  margin: 0 auto;
+  font-size: 100%;
+  vertical-align: middle;
+  overflow: visible;
+  line-height: normal;
+  cursor: pointer;
+  padding: 12px;
+  background-color: #ffd180;
+  border:none;
+  display:inline-block;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:#f6ba52;
+
+}
+
+td {
+  width: 200px;
+}
+
+.play {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+table {
+  padding: 5px;
+  background-color:white;
+  text-align: center;
+}
+
+p {
+  padding: 5px;
+  background-color:white;
+}

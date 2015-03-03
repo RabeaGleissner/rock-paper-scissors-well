@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Beat the bot</title>
+ <link rel="stylesheet" href="css/main.css">
+ <script src="jquery-1.11.0.min.js"></script>
+ <script src="game.js"></script>
+</head>
+<body>
+  <div class='wrapper'>
+    <h1>ROCK - PAPER - SCISSORS - WELL</h1>
+
+    <p>The rules: <strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>. <strong>Well</strong> beats <strong>rock</strong> and <strong>scissors</strong> because they can both fall into it. <strong>Paper</strong> covers the well, hence beats it. </p>
+    
+
+    <div class="play">
+      <h2>Beat the bot!</h2>
+      <h3>Make your choice</h3>
+      <div class="button_area">
+      <div class="button_wrapper">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+      <button id="well">Well</button>
+      </div>
+      </div>
+      </div>
+      <div class="message" id="status_computer"></div>
+      <div class="message" id="winner_message"></div>
+  
+    <div class="scoreboard">
+      <h2>Scoreboard</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td id="humanScore">0</td>
+            <td id="computerScore">0</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td><strong>You</strong></td>
+            <td><strong>Bot</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
